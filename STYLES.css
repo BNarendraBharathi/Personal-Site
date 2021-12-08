@@ -1,0 +1,157 @@
+body{
+
+  text-align: center;
+  margin: 0;
+}
+
+
+/* _____________________________________________ h-series  ____________________________________________________________*/
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Merriweather', serif;
+  font-size: 4rem;
+  line-height: 2;
+}
+
+h1:hover{
+  color:gold;
+}
+
+
+h2{
+font-family: 'Major Mono Display', monospace;
+font-weight: normal;
+font-size: 2rem;
+color: #66BFBF;
+}
+
+
+h3{
+  color:  #11999E;
+  font-family: 'Abel', sans-serif;
+}
+p{
+  font-family: 'Ubuntu Mono', monospace;
+  color: #40514E;
+  line-height: 2;
+}
+
+hr{
+  border-color: #E1E8EB;
+  border-style: dotted none none;
+  border-width: 5px;
+  width:50px ;
+}
+/*______________________________________________________anchor___________________________________________________*/
+a{
+    color:  #11999E;
+}
+
+/*____________________________________________________________________________________________________________   */
+.programmer{
+  font-family: 'Fira Mono', monospace;
+  font-size: 2.5rem;
+}
+
+
+/*-------------------------------------------------  top-top_container--------------------------------------------*/
+.top_container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  color: #66BFBF;
+
+}
+.top-cloud{
+position: absolute;
+right: 350px;
+top: 50px;
+
+}
+
+.bottom-cloud{
+  position:absolute;
+  left: 350px;
+  bottom: 300px;
+
+}
+/*------------------------------------------------- end of top-top_container--------------------------------------------*/
+
+.middle-container{
+  margin-bottom: 50px;
+}
+
+.profile{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.webdesign{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.programming{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+
+
+}
+
+.skills{
+  margin-top: 100px;
+}
+
+.skill-row{
+  width:50%;
+
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Major Mono Display', monospace;
+  font-weight: normal; ;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3498db;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+
+/* _________________________________________________end of middle container____________________________________________ */
+.bottom-container{
+  padding-top:  50px ;
+}
+.copyrights{
+  color: #EAF6F6;
+}
+.bottom-container{
+  background: #66BFBF;
+}
